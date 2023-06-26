@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" stylesheets="@test_1.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.Top5Controller">
+   <children>
+      <VBox layoutX="427.0" layoutY="116.0" prefHeight="147.0" prefWidth="130.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="88.0" spacing="15.0">
+               <children>
+                  <Label text="Top1:" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label id="t1" fx:id="t1" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="88.0" spacing="15.0">
+               <children>
+                  <Label text="Top2:" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label id="t2" fx:id="t2" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="88.0" spacing="15.0">
+               <children>
+                  <Label text="Top3:" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label id="t3" fx:id="t3" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="88.0" spacing="15.0">
+               <children>
+                  <Label text="Top4:" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label id="t4" fx:id="t4" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="88.0" spacing="15.0">
+               <children>
+                  <Label text="Top5:" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label id="t5" fx:id="t5" text="0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="425.0" layoutY="70.0" text="Top 5" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="tryagain" fitHeight="93.0" fitWidth="174.0" layoutX="273.0" layoutY="310.0" onMouseClicked="#Trayagain" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tryagain.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quit" fitHeight="93.0" fitWidth="174.0" layoutX="450.0" layoutY="310.0" onMouseClicked="#Quit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@quit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

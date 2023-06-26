@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="start" fitHeight="127.0" fitWidth="204.0" layoutX="259.0" layoutY="233.0" onMouseClicked="#start" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@start-game.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quit" fitHeight="127.0" fitWidth="204.0" layoutX="467.0" layoutY="234.0" onMouseClicked="#quit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@quit-game.png" />
+         </image>
+      </ImageView>
+    </children>
+   <stylesheets>
+      <URL value="@test.css" />
+      <URL value="@test_1.css" />
+   </stylesheets>
+</AnchorPane>
